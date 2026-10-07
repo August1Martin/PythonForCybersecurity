@@ -5,4 +5,9 @@
 
 today = input('Is today a good day? (y/n) ')
 print (today)
-if today == 'y': print ("Yes it is")
+if (today == 'y' or today == 'Yes' or today == "yes" or today == 'Y'):
+     print ("Yes it is")
+else: print ('I hope yours gets better')
+
+
+
